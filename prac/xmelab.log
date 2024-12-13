@@ -1,0 +1,28 @@
+xmelab(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	23.03-s013: Started on Dec 05, 2024 at 20:36:43 KST
+xmelab
+    -MESS
+    -access +rwc
+    tb_MUX4X1_pipe
+
+	Elaborating the design hierarchy:
+		Caching library 'work_lib' ....... Done
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		work_lib.MUX4X1_pipe:module <0x710b560d>
+			streams:   8, words:  3222
+		work_lib.tb_MUX4X1_pipe:module <0x1854434d>
+			streams:  10, words:  7438
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:              12      12
+		Scalar wires:            9       -
+		Always blocks:           2       2
+		Initial blocks:          1       1
+		Pseudo assignments:      8       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: work_lib.tb_MUX4X1_pipe:module
+TOOL:	xmelab(64)	23.03-s013: Exiting on Dec 05, 2024 at 20:36:43 KST  (total: 00:00:00)

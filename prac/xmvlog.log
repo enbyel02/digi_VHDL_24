@@ -1,0 +1,40 @@
+xmvlog(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmvlog(64)	23.03-s013: Started on Dec 05, 2024 at 20:47:49 KST
+xmvlog
+    -MESS
+    -linedebug
+    MUX4X1_pipe.v
+    multi_pipeline.v
+    pipeline.v
+    tb_MUX4X1_pipe.v
+    tb_multi_pipeline.v
+    tb_pipeline.v
+
+file: MUX4X1_pipe.v
+		out <= temp_out;
+		     |
+xmvlog: *E,EXPLPA (MUX4X1_pipe.v,59|7): expecting a left parenthesis ('(') [12.1.2][7.1(IEEE)].
+		out <= temp_out;
+		               |
+xmvlog: *E,EXPLPA (MUX4X1_pipe.v,59|17): expecting a left parenthesis ('(') [12.1.2][7.1(IEEE)].
+	end
+	  |
+xmvlog: *E,EXPENM (MUX4X1_pipe.v,60|3): expecting the keyword 'endmodule' [12.1(IEEE)].
+	module work_lib.MUX4X1_pipe
+		errors: 3, warnings: 0
+file: multi_pipeline.v
+	module work_lib.multi_pipeline
+		errors: 0, warnings: 0
+file: pipeline.v
+	module work_lib.pipeline
+		errors: 0, warnings: 0
+file: tb_MUX4X1_pipe.v
+	module work_lib.tb_MUX4X1_pipe
+		errors: 0, warnings: 0
+file: tb_multi_pipeline.v
+	module work_lib.tb_multi_pipeline
+		errors: 0, warnings: 0
+file: tb_pipeline.v
+	module work_lib.tb_pipeline
+		errors: 0, warnings: 0
+TOOL:	xmvlog(64)	23.03-s013: Exiting on Dec 05, 2024 at 20:47:49 KST  (total: 00:00:00)

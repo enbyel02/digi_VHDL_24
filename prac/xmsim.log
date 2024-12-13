@@ -1,0 +1,23 @@
+xmsim(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmsim(64)	23.03-s013: Started on Dec 05, 2024 at 20:36:47 KST
+xmsim
+    -MESS
+    tb_MUX4X1_pipe
+    -gui
+
+xmsim: *W,NOMTDGUI: Multi-Threaded Dumping is disabled for interactive debug mode.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm tb_MUX4X1_pipe.clk tb_MUX4X1_pipe.in0 tb_MUX4X1_pipe.in1 tb_MUX4X1_pipe.in2 tb_MUX4X1_pipe.in3 tb_MUX4X1_pipe.out tb_MUX4X1_pipe.rst_n tb_MUX4X1_pipe.s0 tb_MUX4X1_pipe.s1
+Created probe 1
+xcelium> run
+Error!!
+Simulation complete via $finish(1) at time 90 NS + 0
+./tb_MUX4X1_pipe.v:45 	$finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xmsim(64)	23.03-s013: Exiting on Dec 05, 2024 at 20:46:42 KST  (total: 00:09:55)
